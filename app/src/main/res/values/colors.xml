@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="blue_400">#FF42A5F5</color>
+    <color name="red_400">#FFEF5350</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="secondary_text">@color/m3_ref_palette_neutral_variant30</color>
+    <color name="tertiary_text">@color/m3_ref_palette_neutral_variant40</color>
+</resources>

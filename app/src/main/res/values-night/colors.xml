@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="secondary_text">@color/m3_ref_palette_neutral_variant80</color>
+    <color name="tertiary_text">@color/m3_ref_palette_neutral_variant70</color>
+</resources>

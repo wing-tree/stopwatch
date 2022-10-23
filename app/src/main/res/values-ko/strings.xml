@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">스톱워치</string>
+    <string name="content_copy">내용 복사</string>
+    <string name="copied_to_clipboard">클립보드에 복사했습니다</string>
+    <string name="lap">구간</string>
+    <string name="lap_times">구간 기록</string>
+    <string name="overall_time">전체 시간</string>
+    <string name="record_lap">구간 기록</string>
+    <string name="reset">초기화</string>
+    <string name="resume">계속</string>
+    <string name="start">시작</string>
+    <string name="stop">중지</string>
+</resources>

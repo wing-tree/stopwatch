@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/listPreferredItemHeightSmall">
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/text_view_lap"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/image_view_arrow_downward"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/ic_round_arrow_downward_24"
+            android:visibility="gone"
+            app:tint="@color/blue_400"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/image_view_arrow_upward"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/ic_round_arrow_upward_24"
+            android:visibility="gone"
+            app:tint="@color/red_400"
+            tools:ignore="ContentDescription" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/text_view_lap"
+        style="@style/TitleMedium"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:textColor="@color/tertiary_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/text_view_lap_time"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="1.0"
+        app:layout_constraintStart_toEndOf="@+id/frame_layout"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="1" />
+
+    <TextView
+        android:id="@+id/text_view_lap_time"
+        style="@style/TitleMedium"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:textColor="@color/secondary_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/text_view_overall_time"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_weight="1.5"
+        app:layout_constraintStart_toEndOf="@+id/text_view_lap"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="00.00:00" />
+
+    <TextView
+        android:id="@+id/text_view_overall_time"
+        style="@style/TitleMedium"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="1.5"
+        app:layout_constraintStart_toEndOf="@+id/text_view_lap_time"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="00.00:00" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

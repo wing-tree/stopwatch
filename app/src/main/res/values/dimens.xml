@@ -1,0 +1,14 @@
+<resources>
+    <dimen name="margin_16dp">16dp</dimen>
+
+    <dimen name="banner">50dp</dimen>
+    <dimen name="margin_bottom">@dimen/margin_16dp</dimen>
+    <dimen name="margin_horizontal">@dimen/margin_16dp</dimen>
+    <dimen name="margin_top">32dp</dimen>
+    <dimen name="margin_vertical">@dimen/margin_16dp</dimen>
+    <dimen name="padding_horizontal">@dimen/margin_16dp</dimen>
+    <dimen name="padding_vertical">@dimen/margin_16dp</dimen>
+    <dimen name="space_width">32dp</dimen>
+
+    <item format="float" name="disabled_alpha" type="dimen">0.26</item>
+</resources>
